@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pelada/static/css/main.4169f80c.css",
-    "main.js": "/pelada/static/js/main.07cbf194.js",
+    "main.js": "/pelada/static/js/main.8db5c6bd.js",
     "index.html": "/pelada/index.html",
     "main.4169f80c.css.map": "/pelada/static/css/main.4169f80c.css.map",
-    "main.07cbf194.js.map": "/pelada/static/js/main.07cbf194.js.map"
+    "main.8db5c6bd.js.map": "/pelada/static/js/main.8db5c6bd.js.map"
   },
   "entrypoints": [
     "static/css/main.4169f80c.css",
-    "static/js/main.07cbf194.js"
+    "static/js/main.8db5c6bd.js"
   ]
 }
