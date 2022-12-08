@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo systemctl enable pelada.service
+sudo systemctl restart pelada.service
+
+sudo systemctl restart nginx

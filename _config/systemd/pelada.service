@@ -1,0 +1,20 @@
+sudo nano /etc/systemd/system/pelada.service
+sudo systemctl start pelada
+
+---------------
+
+[Unit]
+Description=pelada
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/serve /home/ec2-user/pelada
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=pelada
+User=ec2-user
+
+[Install]
+WantedBy=multi-user.target
