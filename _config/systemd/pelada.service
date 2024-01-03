@@ -8,13 +8,14 @@ Description=pelada
 After=multi-user.target
 
 [Service]
-ExecStart=/usr/bin/serve /home/ec2-user/pelada
+ExecStart=/usr/bin/serve /var/www/pelada
 Restart=always
 RestartSec=10
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=pelada
-User=ec2-user
+User=root
 
 [Install]
 WantedBy=multi-user.target
+
